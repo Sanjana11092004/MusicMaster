@@ -1,0 +1,116 @@
+.chooselevel-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(120deg, #a673e3 0%, #e9d5ff 100%);
+  opacity: 0.97;
+  position: absolute;
+  top: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chooselevel-container {
+  background: rgba(255,255,255,0.93);
+  border-radius: 24px;
+  box-shadow: 0 6px 32px rgba(128, 0, 128, 0.14);
+  padding: 42px 32px 38px 32px;
+  text-align: center;
+  width: 620px;
+  max-width: 97vw;
+}
+
+.chooselevel-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #4c1d95;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+
+.chooselevel-highlight {
+  color: #a673e3;
+}
+
+.chooselevel-subtitle {
+  font-size: 1.15rem;
+  color: #5e2193;
+  margin-bottom: 37px;
+  font-weight: 500;
+}
+
+.chooselevel-options {
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+  margin-bottom: 29px;
+}
+
+.chooselevel-card {
+  background: #f6e9fc;
+  border-radius: 18px;
+  box-shadow: 0 2px 14px rgba(128, 84, 227, 0.13);
+  width: 188px;
+  padding: 35px 18px 22px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.18s, transform 0.13s, border-color 0.16s;
+  cursor: pointer;
+  border: 2.5px solid transparent;
+}
+
+.chooselevel-card:hover,
+.chooselevel-card:focus {
+  box-shadow: 0 12px 32px 0 #a673e3be;
+  transform: scale(1.06);
+  border: 2.5px solid #a673e3;
+  outline: none;
+}
+
+.chooselevel-name {
+  font-size: 1.24rem;
+  font-weight: 600;
+  color: #7a07e6;
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+
+.chooselevel-desc {
+  font-size: 1rem;
+  color: #773ed3;
+  margin-bottom: 23px;
+  opacity: 0.88;
+}
+
+.chooselevel-btn {
+  background: #a673e3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 22px;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.chooselevel-btn:hover {
+  background: #854cbc;
+}
+
+.chooselevel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.chooselevel-dot {
+  width: 8px;
+  height: 8px;
+  background: #5919a6;
+  opacity: 0.39;
+  border-radius: 50%;
+  display: inline-block;
+}

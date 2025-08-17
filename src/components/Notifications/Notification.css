@@ -1,0 +1,82 @@
+.notification-popup {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.popup-header {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+.mark-read-text {
+  color: purple;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+.popup-content {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.popup-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.popup-item:hover {
+  background-color: #f9f9f9;
+}
+
+.popup-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.popup-message {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unread-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #764abc;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.popup-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-top: 1px solid #eee;
+}
+
+.settings-btn,
+.view-all-btn {
+  background: none;
+  border: none;
+  color: #764abc;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,130 @@
+.hero {
+  background: url('https://i.pinimg.com/736x/a8/6b/97/a86b973857bac6231d49d2abc199234d.jpg') no-repeat right center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px 20px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* <-- centers vertically */
+  align-items: center;
+  margin-top: -60px;
+}
+
+
+.hero-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero-badge {
+  background-color: #dcb7f6;
+  color: #6e2aa6;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  margin-top: 0; /* ensure no unnecessary top margin */
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.hero .highlight {
+  color: #a14ac9;
+  font-weight: 600;
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.btn.primary {
+  background-color: #a14ac9;
+  color: #fff;
+  border-color: #a14ac9;
+}
+
+.btn.primary:hover {
+  background-color: #9127b3;
+}
+
+.btn.oneprimary {
+  background-color: white;       /* White background */
+  border: 2px solid #a14ac9;     /* Purple border */
+  color: #a14ac9;                /* Purple text */
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius: 24px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.oneprimary:hover {
+  background-color: #a14ac9;     /* On hover purple background */
+  color: white;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #a14ac9;
+  color: #a14ac9;
+}
+
+.btn.secondary:hover {
+  background-color: #f3e7fa;
+}
+
+.inspired-text {
+  font-size: 18px;
+  color: #a14ac9;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.partner-logos img {
+  height: 60px;            /* 🔍 consistent height */
+  object-fit: contain;     /* 🧼 prevents distortion */
+  filter: grayscale(0.5);  /* 🎨 optional soft branding look */
+  transition: transform 0.2s ease;
+}
+
+.partner-logos img:hover {
+  transform: scale(1.05);  /* 💫 subtle hover effect */
+}
